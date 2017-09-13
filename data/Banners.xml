@@ -387,7 +387,7 @@
 
     <Banner id="33">
         <name>5★ Upgrade Vote Scout</name>
-        <type>0</type>
+        <type>3</type>
 
         <!--> CHARACTER LIST <-->
         <Character prefix="5★ Hero's Return" char="Kirito" rarity="5"/>
