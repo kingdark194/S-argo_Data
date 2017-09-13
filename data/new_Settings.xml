@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <!-->
+        RENAME THE FILE TO BE Settings.xml INSTEAD OF new_Settings.xml BEFORE USING!
+        ALSO DON'T FORGET TO CHANGE THE TOKEN TO YOUR BOT'S TOKEN!
+    <-->
+
+    <!-->
+    BOT SETTINGS
+        Token: Token for the bot that's running the program.
+		BotOwnerID: Bot Owner's ID (aka, the only person who can use 'update').
+        UseMention: Commands are called via '@Bot <command>' if true.
+        CommandPrefix: If UseMention is false, commands are called via '<prefix><command>'.
+        DeleteUserMessage: If true, the bot deletes the message that the player used to call it.
+    <-->
+    <BotSettings>
+        <Token>YOUR_BOT_TOKEN_HERE</Token>
+        <BotOwnerID>YOUR_DISCORD_ID_HERE</BotOwnerID>
+        <UseMention>true</UseMention>
+        <CommandPrefix>$</CommandPrefix>
+        <DeleteUserMessage>false</DeleteUserMessage>
+    </BotSettings>
+
+	<!-->
+	IGNORED CHANNELS
+		Channels that you don't want the bot to work in.
+	<-->
+    <IgnoredChannels>
+        <iChannel channelName="general"/>
+        <iChannel channelName="ignored-channel"/>
+    </IgnoredChannels>
+
+	<!-->
+	GITHUB DATA REPOSITORY
+		GitHub repository that the bot pulls images (Characters/Icons) as well as files (Banners.xml).
+		
+		A custom repository may be replaced with this official one, but make sure to format your file
+		locations similar to how it is formatted in the official repository.
+	<-->
+    <GitHubDataRepository>https://raw.githubusercontent.com/Expugn/S-argo_Data/master/</GitHubDataRepository>
+
+    <!--> 
+	GACHAPON RATES 
+		Rates used in the summon simulator.
+		
+		By default, the rates are:
+			- 69% for a Copper Character
+			- 25% for a Silver Character
+			- 4% for a Gold Character
+			- 2% for a Platinum Character
+			
+		If no Platinum character exists, the 2% gets added to the Copper Character rates.
+	<-->
+    <BaseRates>
+        <two>0.69</two>
+        <three>0.25</three>
+        <four>0.04</four>
+        <five>0.02</five>
+    </BaseRates>
+
+    <!--> 
+	RECORD CRYSTAL RATES 
+		Rates for how much record crystals the user will get when scouting from a record crystal banner.
+		
+		By default, the rates are:
+			- 3% for 1 RC
+			- 37% for 2 RC
+			- 40% for 3 RC
+			- 10% for 4 RC
+			- 3.5% for 5 RC
+			- 3.5% for 6 RC
+			- 1% for 7 RC
+			- 1% for 8 RC
+			- 0.5% for 9 RC
+			- 0.5% for 10 RC
+	<-->
+    <RecordCrystal>
+        <RecordCrystal amount="1" rate="0.03"/>
+        <RecordCrystal amount="2" rate="0.37"/>
+        <RecordCrystal amount="3" rate="0.4"/>
+        <RecordCrystal amount="4" rate="0.1"/>
+        <RecordCrystal amount="5" rate="0.035"/>
+        <RecordCrystal amount="6" rate="0.035"/>
+        <RecordCrystal amount="7" rate="0.01"/>
+        <RecordCrystal amount="8" rate="0.01"/>
+        <RecordCrystal amount="9" rate="0.005"/>
+        <RecordCrystal amount="10" rate="0.005"/>
+    </RecordCrystal>
+
+    <!-->
+    GOLD BANNERS
+        These are the banners included in record crystal guaranteed scouts.
+        They are also the gold characters you can get from banners with only platinum characters.
+    <-->
+    <GoldBanners>
+        <BannerID id="3"/> <!-->The Accelerating Reality<-->
+        <BannerID id="5"/> <!-->Hooray ★ Love Cheers<-->
+        <BannerID id="7"/> <!-->Alicization - The Knights' Encounter<-->
+        <BannerID id="8"/> <!-->Deadly Beautiful Kunoichi<-->
+        <BannerID id="9"/> <!-->Enduring Love in Another Space<-->
+        <BannerID id="10"/> <!-->Blooming School Life<-->
+        <BannerID id="11"/> <!-->Princess from the Virtual World<-->
+        <BannerID id="12"/> <!-->To Your Heart - Maid in Balmy Breeze<-->
+        <BannerID id="13"/> <!-->Alicization - Integration Beginning<-->
+        <BannerID id="14"/> <!-->Beautiful Girls Playing in the Water<-->
+        <BannerID id="15"/> <!-->Poetry of Constellation<-->
+        <BannerID id="16"/> <!-->Eternal Love - Dreaming Bride<-->
+        <BannerID id="17"/> <!-->Recalling Moments<-->
+        <BannerID id="18"/> <!-->Workers' Cosplay Paradise<-->
+        <BannerID id="19"/> <!-->Raindrops Concerto<-->
+        <BannerID id="20"/> <!-->Tropical Dream<-->
+        <BannerID id="21"/> <!-->Promised Night of the Stars<-->
+        <BannerID id="22"/> <!-->Yukata Night<-->
+    </GoldBanners>
+</settings>
