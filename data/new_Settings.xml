@@ -12,6 +12,7 @@
         UseMention: Commands are called via '@Bot <command>' if true.
         CommandPrefix: If UseMention is false, commands are called via '<prefix><command>'.
         DeleteUserMessage: If true, the bot deletes the message that the player used to call it.
+        DisableImages: If true, users cannot create images by adding an "i" after their scout type.
     <-->
     <BotSettings>
         <Token>YOUR_BOT_TOKEN_HERE</Token>
@@ -19,6 +20,7 @@
         <UseMention>true</UseMention>
         <CommandPrefix>$</CommandPrefix>
         <DeleteUserMessage>false</DeleteUserMessage>
+        <DisableImages>false</DisableImages>
     </BotSettings>
 
 	<!-->

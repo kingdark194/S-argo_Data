@@ -1,5 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <banners>
+    <!-->
+    WARNING
+        If the banner uses symbols (★ or & for example) and is a Step Up, Record Crystal, or Step Up v2 scout,
+        refrain from using those symbols and use the names instead.
+
+        i.e.
+        - "5★ Upgrade Vote Scout" -> "5 Star Upgrade Vote Scout"
+        - "Memory of Friendship & Passing of Time" -> "Memory of Friendship and Passing of Time"
+
+        Doing this will ensure that there will be no errors when parsing the Banners.xml file.
+    <-->
+
+    <!-->
+    BANNER TYPES
+        As of this writing, The following banner types are available:
+
+        0) Normal (Static scout rates, nothing special)
+        1) Step Up (Increased gold character scout rate per step, resets at 5)
+        2) Record Crystal (Get record crystals every multi scout to use in a guaranteed scout)
+        3) Step Up v2 (Increased platinum character scout rate per step, repeats at 6)
+
+        Type the desired number between the <type></type> area in a banner.
+    <-->
+
     <Banner id = "1">
         <name>Start Dash</name>
         <type>0</type>
