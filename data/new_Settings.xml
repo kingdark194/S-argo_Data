@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <settings>
     <!-->
         RENAME THE FILE TO BE Settings.xml INSTEAD OF new_Settings.xml BEFORE USING!
@@ -21,6 +21,7 @@
         <CommandPrefix>$</CommandPrefix>
         <DeleteUserMessage>false</DeleteUserMessage>
         <DisableImages>false</DisableImages>
+        <NoGUI>false</NoGUI>
     </BotSettings>
 
 	<!-->
